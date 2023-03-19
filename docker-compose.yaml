@@ -47,7 +47,7 @@ services:
       - my-db:/var/lib/mysql
       - "./scripts/init_tables.sql:/docker-entrypoint-initdb.d/init_tables.sql"
     ports:
-      - 3307:3306
+      - 3306:3306
     healthcheck:
       test: ["CMD", "mysqladmin" ,"ping", "-h", "localhost", '-pairflow']
       interval: 10s

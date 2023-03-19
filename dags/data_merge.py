@@ -21,7 +21,7 @@ def merge_tables():
         password='kartaca',
         host='host.docker.internal',
         database='kartaca',
-        port='3307'
+        port='3306'
     )
 
     cursor = db.cursor()

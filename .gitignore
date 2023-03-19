@@ -1,0 +1,5 @@
+# ignore cache file
+__pycache__
+
+# ignore logs
+logs
